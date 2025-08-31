@@ -21,7 +21,7 @@ public class Task1 {
         path(n2,m2);
 
     }
-    static void path(int n, int m){
+    private static void path(int n, int m){
         int i = 1;
         do {
             System.out.print(i);

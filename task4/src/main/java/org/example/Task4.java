@@ -29,7 +29,7 @@ public class Task4 {
         }
     }
 
-    static int findSteps(List<Integer> arr) {
+    private static int findSteps(List<Integer> arr) {
         Collections.sort(arr);
         int m = arr.get(arr.size() / 2);
         int res = 0;
